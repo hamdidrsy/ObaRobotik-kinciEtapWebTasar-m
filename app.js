@@ -1,0 +1,1 @@
+alert("Hamdinin Uyarı Merkezi");
