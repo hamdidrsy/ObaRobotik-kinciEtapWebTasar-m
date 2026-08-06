@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial;
+}
+
+.kutu {
+    background-color: yellow;
+    width: 400px;
+    border-radius: 20px;
+
+    padding: 30px;
+    margin: 100px auto;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+    padding: 15px 25px;
+    margin: 17px;
+}
+
+h1 {
+    color: brown;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: orange;
+    color: black;
+    font-size: medium;
+}
