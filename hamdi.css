@@ -1,12 +1,12 @@
 body {
-background-color: lightblue;
+background-color: gray;
 text-align: center;
 font-family: Arial;
 }
 
 .kutu {
 background-color: yellow;
-width: 400px;
+width: 500px;
 border-radius: 20px;
 
 padding: 30px;
@@ -40,5 +40,9 @@ font-size: 20px;
 button:hover {
 background-color: orange;
 color: black;
-font-size: medium;
+transform: scale(1.1);
+}
+
+#soruKutusu{
+    display: none;
 }
