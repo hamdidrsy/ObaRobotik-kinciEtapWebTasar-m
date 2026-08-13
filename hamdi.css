@@ -46,3 +46,32 @@ transform: scale(1.1);
 #soruKutusu{
     display: none;
 }
+
+/* GURUR TABLOSU */
+
+.gurur-tablosu {
+    background-color: white;
+    width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.gurur-tablosu table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.gurur-tablosu th {
+    background-color: purple;
+    color: white;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.gurur-tablosu td {
+    background-color: lightyellow;
+    padding: 15px;
+    border: 2px solid black;
+}
