@@ -52,7 +52,7 @@ transform: scale(1.1);
     width: 600px;
     margin: 30px auto;
     padding: 20px;
-    border-radius: 74px;
+    border-radius: 20px;
 }
 
 .gurur-tablomuz table{
@@ -60,3 +60,16 @@ transform: scale(1.1);
     margin-top: 20px;
     border-collapse: collapse;
 }
+/* 
+.gurur-tablomuz th{
+    background-color: purple;
+    color: white;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.gurur-tablomuz td{
+    background-color: antiquewhite;
+    padding: 15px;
+    border: 2px solid black;
+} */
