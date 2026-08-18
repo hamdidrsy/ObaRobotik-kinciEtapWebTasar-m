@@ -8,3 +8,13 @@ baslatButonu.addEventListener("click", function () {
 
     soruKutusu.style.display = "block";
 });
+
+
+let dogruY = 0;
+let yanlısY = 0;
+let puanY = 0;
+
+
+function cevap(dogruMu){
+    
+}

@@ -60,16 +60,15 @@ transform: scale(1.1);
     margin-top: 20px;
     border-collapse: collapse;
 }
-/* 
-.gurur-tablomuz th{
-    background-color: purple;
+
+.gurur-tablomuz th,td{
+    background-color: lightblue;
     color: white;
     padding: 15px;
     border: 2px solid black;
 }
 
-.gurur-tablomuz td{
-    background-color: antiquewhite;
-    padding: 15px;
-    border: 2px solid black;
-} */
+
+#tablo{
+    display: none;
+}
