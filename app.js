@@ -16,5 +16,17 @@ let puanY = 0;
 
 
 function cevap(dogruMu){
-    
+    if(dogruMu){
+        dogruY = dogruY + 1;
+        puanY = puanY + 10;
+    }else{
+        yanlısY = yanlısY +1 ;
+    }
+
+    dogru.textContent = dogruY;
+    yanlıs.textContent = yanlısY;
+    puanY.textContent = puanY;
+
+    soruKutusu.style.display = "none";
+    tablo.style.display = "block";
 }
