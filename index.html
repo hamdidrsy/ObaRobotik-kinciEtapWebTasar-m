@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="hamdi.css">
 </head>
 <body>
+
     <div class="kutu" id="başlangıc">
         <h1>Bilgi Yarışmasına Hoşgeldiniz</h1>
         <p>Yarışma Başlamak Üzere!</p>  
@@ -17,9 +18,37 @@
         <h2>Genel Kültür Yarışması</h2>
         <h3>1.Soru</h3>
         <p>Türkiye'nin Başkenti Neresidir?</p>
-        <button>Alanya</button>
-        <button>Kestel</button>
-        <button>Ankara</button>
+        <button onclick="cevap(false)">Alanya</button>
+        <button onclick="cevap(false)">Kestel</button>
+        <button onclick="cevap(true)">Ankara</button>
+    </div>
+
+   <div class="kutu" id="soruKutusu2">
+        <h2>Genel Kültür Yarışması</h2>
+        <h3>2.Soru</h3>
+        <p> Bir butonun üzerine fare geldiğinde renginin değişmesini istiyoruz.
+            Hangisini kullanabiliriz?</p>
+        <button onclick="cevap2(true)">button:hover</button>
+        <button onclick="cevap2(false)">button</button>
+        <button onclick="cevap2(false)">alert()</button>
+    </div> 
+
+    <div class="kutu" id="soruKutusu3">
+        <h2>Genel Kültür Yarışması</h2>
+        <h3>3.Soru</h3>
+        <p>En iyi Eğitim Kursu Neresidir?</p>
+        <button onclick="cevap3(false)">A kursu</button>
+        <button onclick="cevap3(true)">Oba Robotik Kursu</button>
+        <button onclick="cevap3(false)">C Kursu</button>
+    </div>
+
+        <div class="kutu" id="soruKutusu4">
+        <h2>Genel Kültür Yarışması</h2>
+        <h3>4.Soru</h3>
+        <p>Hangi Koli Faydalıdır</p>
+        <button onclick="cevap4(false)">Ramazan kolisi</button>
+        <button onclick="cevap4(false)">Turşu Kolisi</button>
+        <button onclick="cevap4(true)">Brokoli</button>
     </div>
 
     <div class="gurur-tablomuz" id="tablo">
@@ -33,9 +62,9 @@
             </tr>
             <tr>
                 <td>Hamdi</td>
-                <td>0</td>
-                <td>0</td>
-                <td>100</td>
+                <td id="dogru">0</td>
+                <td id="yanlış">0</td>
+                <td id="puan">100</td>
             </tr>
         </table>
     </div>
