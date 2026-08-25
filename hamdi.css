@@ -1,74 +1,90 @@
 body {
-background-color: gray;
-text-align: center;
-font-family: Arial;
+    background-color: gray;
+    text-align: center;
+    font-family: Arial;
 }
+
 
 .kutu {
-background-color: yellow;
-width: 500px;
-border-radius: 20px;
+    background-color: yellow;
+    width: 500px;
+    border-radius: 20px;
 
-padding: 30px;
-margin: 100px auto;
-
-
+    padding: 30px;
+    margin: 100px auto;
 }
+
 
 button {
-background-color: purple;
-color: white;
-border: none;
-border-radius: 20px;
-cursor: pointer;
+    background-color: purple;
+    color: white;
 
-padding: 15px 25px;
-margin: 17px;
+    border: none;
+    border-radius: 20px;
 
+    cursor: pointer;
 
+    padding: 15px 25px;
+    margin: 17px;
 }
+
 
 h1 {
-color: brown;
-font-size: 50px;
+    color: brown;
+    font-size: 50px;
 }
+
 
 p {
-font-size: 20px;
+    font-size: 20px;
 }
+
 
 button:hover {
-background-color: orange;
-color: black;
-transform: scale(1.1);
+    background-color: orange;
+    color: black;
+
+    transform: scale(1.1);
 }
 
-#soruKutusu{
+
+#soruKutusu {
     display: none;
 }
 
-.gurur-tablomuz{
+
+.gurur-tablomuz {
     background-color: aliceblue;
+
     width: 600px;
+
     margin: 30px auto;
     padding: 20px;
+
     border-radius: 20px;
 }
 
-.gurur-tablomuz table{
+
+.gurur-tablomuz table {
     width: 100%;
+
     margin-top: 20px;
+
     border-collapse: collapse;
 }
 
-.gurur-tablomuz th,td{
+
+.gurur-tablomuz th,
+.gurur-tablomuz td {
     background-color: lightblue;
     color: white;
+
     padding: 15px;
+
     border: 2px solid black;
 }
 
 
-#tablo{
+#tablo {
     display: none;
 }
